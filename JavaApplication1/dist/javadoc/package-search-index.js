@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"DataStructuresAndAlgorithms.Searching"},{"l":"DataStructuresAndAlgorithms.Sorting"},{"l":"DataStructuresAndAlgorithms.Sorting.Algo"},{"l":"DataStructuresAndAlgorithms.Sorting.Gready"},{"l":"dp"},{"l":"Java_stream"},{"l":"javaapplication1"},{"l":"newpackage"},{"l":"newpackage12"},{"l":"TreeDs"}]

@@ -1,0 +1,5 @@
+com\mycompany\sprinvmvc\exceptionhandler\MyExceptionHandle.class
+com\mycompany\sprinvmvc\controller\FrontController.class
+com\mycompany\sprinvmvc\Services\UserService.class
+com\mycompany\sprinvmvc\Dao\UserDao.class
+com\mycompany\sprinvmvc\Entities\User.class

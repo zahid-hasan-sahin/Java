@@ -1,0 +1,24 @@
+If there are N places and M roads,the time complexities of the solutions  problem 1 & problem 2 respectively O(N + M*logN) and O(N + M*logN).
+
+time Complexity of Dijkstra Algorithm is O(N + M) but with priority queue its become O(N + M*logN) for both solution problem 1 and problem 2.
+
+If the number of titans in each road is exactly 1, there is an O(N + M) algorithm to solve this problem.That's BFS.
+We know BFS Works in O(N + M) Time Complexity. 
+pseudocode:
+	create an array name visited
+	set the visited value of all vertices to unvisited
+	create an array name distance
+	set the distance value of all vertices to infinity
+	set the distance value of the start vertex to 0
+	create a queue
+	add start vertex on the queue
+	mark start vertex as visited
+	while(queue is not empty)   
+   	  pop top vertex (lt's call it curr) from queue
+          for all of the unvisited children of curr:
+		if children is not visited:
+     	 	  mark children as visited
+         	 set children distance values to be (the distance of x) + 1 
+	 	 add children to queue
+
+	return distance[end]

@@ -1,0 +1,26 @@
+BFS:
+	We have to first iterate through the vertices in the loop and this loop in BFS is executed at most |V| times. The reason is that every vertex has to put into the Queue only once. So we have O(V) for this loop.
+
+Then for each vertex we counted the edges it has, counting all the vertices in the graph, this count must be at most |E| times if G is a directed graph . 
+The reason is that every vertex dequeued at most once and we examine (u, v) only when u is dequeued. Therefore, every edge examined at most once if directed.So, we have O(E) for the second loop.
+
+So the total running time for breadth-first search is O(V + E).
+
+DFS: 
+	If graph is implemented by adjacency lists, then, for each node,
+ we should discover all its neighbors by traversing its adjacency list just once in linear time. 
+For a directed graph, the sum of the sizes of the adjacency lists of all the nodes is E (total number of edges). 
+
+So, the complexity of DFS is O(V) + O(E) = O(V + E).
+
+
+
+
+
+
+
+task2(bfs) gets victory road first:
+
+prove:As we can see task3(dfs) first process1 all the node then it's try to find victory road but in task2(bfs) if it's get victory road then simply stoped executing program.
+	and we can this graph is't a single connected component or strongly connected component in that case bfs is good .
+so task2(bfs) gets victory road first.
